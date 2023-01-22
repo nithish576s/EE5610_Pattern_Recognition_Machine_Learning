@@ -212,21 +212,13 @@ This document contains the solution of the question from NCERT 11th standard cha
 Let the direction vector of y-axis be,
 
 \begin{align}
-\myvec{m_1} = 
-\begin{bmatrix}
-0\\
-1
-\end{bmatrix}
+\vec{m_1} = \myvec{0 \\ 1}
 \end{align}
 
 and the direction vector of the line be,
 
 \begin{align}
-\myvec{m_2} = 
-\begin{bmatrix}
-1\\
-m
-\end{bmatrix}
+\vec{m_2} = \myvec{1 \\ m}
 \end{align}
 
 where m is the slope of the line.\\
@@ -234,29 +226,12 @@ where m is the slope of the line.\\
 The cosine of the angle between the line and the y-axis is given by,
 
 \begin{align}
-\cos (\phi) &= \frac{\myvec{m_1}^{\top} \myvec{m_2}}{ || \myvec{m_1} || || \myvec{m_2} || }\\
-\myvec{m_1}^{\top} \myvec{m_2} &= 
-\begin{bmatrix}
-0 \hspace{0.2cm} 1
-\end{bmatrix}
-* 
-\begin{bmatrix}
-1 \\
-m
-\end{bmatrix}
-= m\\
-	\norm{\myvec{m_1}}  &= \sqrt{0^2+1^2} = 1\\
-	\norm{\myvec{m_2}} &= \sqrt{1^2+m^2} = \sqrt{1+m^2}\\
+	\cos (\phi) &= \frac{\vec{m_1}^{\top} \vec{m_2}}{ \norm{\vec{m_1}} \norm{\vec{m_2}} }\\
+	\vec{m_1}^{\top} \vec{m_2} &= \myvec{0 \hspace{0.1cm} 1} \myvec{1 \\ m} = m\\
+	\norm{\vec{m_1}}  &= \sqrt{0^2+1^2} = 1\\
+	\norm{\vec{m_2}} &= \sqrt{1^2+m^2} = \sqrt{1+m^2}\\
 	\cos (\phi) &= \frac{m}{\sqrt{1+m^2}}
 \end{align}
-
-
-
-
-
-
-
-
 
 
 We are given that the angle between the line and the y-axis is 30 degrees.\\

@@ -204,7 +204,7 @@ Two vectors are perpendicular if and only if the inner product between them is z
 Expanding the LHS gives,
 \begin{align}
 &\norm{\vec{a}}^2\vec{b}^{\top} \vec{b}+\norm{\vec{a}}\norm{\vec{b}} \vec{a}^{\top}\vec{b}-\norm{\vec{a}}\norm{\vec{b}}\vec{b}^{\top}\vec{a}-\norm{\vec{b}}^2 \vec{a}^{\top}\vec{a}\\
-&\norm{\vec{a}}^2\norm{\vec{b}}^2+\norm{\vec{a}}\norm{\vec{b}}\vec{a}^{\top}\vec{b}-\norm{\vec{a}}\norm{\vec{b}}\vec{a}^{\top}\vec{b}-|\vec{b}|^2|\vec{a}|^2=0
+	&\norm{\vec{a}}^2\norm{\vec{b}}^2+\norm{\vec{a}}\norm{\vec{b}}\vec{a}^{\top}\vec{b}-\norm{\vec{a}}\norm{\vec{b}}\vec{a}^{\top}\vec{b}-\norm{\vec{b}}^2\norm{\vec{a}}^2=0
 \end{align}
 
 Hence,
@@ -217,8 +217,24 @@ As the inner products between the two vectors is zero, we can say that $ \left(\
 
 Hence Proved.
 
+\section{Examples}
+Let us take, 
 
+\begin{align}
+	\vec{a} = \myvec{3 \\ 4}\\ 
+	\vec{b} = \myvec{5\\ 12}
+\end{align}
 
+Then,
+\begin{align}
+	\norm{\vec{a}} &= \sqrt{3^2+4^2} = 5\\
+	\norm{\vec{b}} &= \sqrt{5^2+12^2} = 13
+\end{align}
+
+\begin{align}
+	\norm{\vec{a}}\vec{b}+\norm{\vec{b}}\vec{a} &= 5\myvec{5\\ 12} + 13\myvec{3\\ 4}\\
+	&=\myvec{25+39\\ 60+52} = \myvec{64\\ 112}
+\end{align}
 \end{document}
 
 

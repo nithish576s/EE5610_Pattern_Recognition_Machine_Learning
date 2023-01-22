@@ -16,10 +16,14 @@ AB = B-A
 AC = C-A
 BC = C-B
 
+#Finding whether the three points form a triangle or not using the rank of the matrix formed by the triangle side vectors
+mat = np.array([AB,AC])
+
+
 #finding the angle of A of the triangle ABC
 phi = np.arccos((np.dot(AB.T,AC))/(np.linalg.norm(AB)*np.linalg.norm(AC)))
 print('angle A of triangle ABC is: ',(phi*180)/np.pi,'degrees')
-
+print('Hence the triangle ABC is a right angled triangle')
 #plotting the triangle
 pnts_AB = line_gen(A,B)
 pnts_BC = line_gen(B,C)

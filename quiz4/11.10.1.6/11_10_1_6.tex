@@ -216,68 +216,32 @@ We need to show that points (4,4), (3,5) and (-1,-1) are vertices of a right tri
 Let,
 
 \begin{align}
-\myvec{A} = 
-\begin{bmatrix}
-	4 \\
-	4
-\end{bmatrix}
-, \myvec{B} = \begin{bmatrix}
-	3 \\
-	5
-\end{bmatrix}
-, \text{and } \myvec{C} = \begin{bmatrix}
-	-1 \\ 
-	-1
-\end{bmatrix}
+	\vec{A} = \myvec{4 \\ 4}, \vec{B} = \myvec{3 \\ 5}, \text{and } \vec{C} = \myvec{-1 \\ -1}
 \end{align}
 
 \begin{align}
-	\myvec{B}-\myvec{A} &= 
-\begin{bmatrix}
-3 \\
-5
-\end{bmatrix}
-- 
-\begin{bmatrix}
-4 \\
-4
-\end{bmatrix}
-= 
-\begin{bmatrix}
--1 \\
-1
-\end{bmatrix}
-\\
-	\myvec{C}-\myvec{A} &= 
-\begin{bmatrix}
--1 \\
--1
-\end{bmatrix}
--
-\begin{bmatrix}
-4 \\
-4
-\end{bmatrix}
-=
-\begin{bmatrix}
--5 \\
--5
-\end{bmatrix}
-\\
-	\brak{\myvec{B}-\myvec{A}}^{\top} \brak{\myvec{A}-\myvec{C}} &= 
-\begin{bmatrix}
--1 \hspace{0.2cm} 1
-\end{bmatrix}
-*
-\begin{bmatrix}
--5 \\
--5
-\end{bmatrix}
-=5-5=0
+	\vec{B}-\vec{A} &= \myvec{3 \\ 5}-\myvec{4 \\ 4} = \myvec{-1 \\ 1}\\
+	\vec{C}-\vec{A} &= \myvec{-1 \\ -1}-\myvec{4 \\ 4}=\myvec{-5 \\ -5}\\
+	\brak{\vec{B}-\vec{A}}^{\top} \brak{\vec{A}-\vec{C}} &= \myvec{-1 \hspace{0.1cm} 1}\myvec{-5 \\ -5}=5-5=0
 \end{align}
 
+First, let us prove that the three points form triangle, i.e the three points are not collinear.
 
-$\brak{\myvec{A}-\myvec{B}}^{\top} \brak{\myvec{A}-\myvec{C}} = 0 \Rightarrow$ angle between $\myvec{A}-\myvec{B}$ and $\myvec{B}-\myvec{C}$ is 90 degrees.
+The three points form a triangle when two side vectors are linearly independent. Hence, it is enough to show that the rank of the following matrix,
+
+\begin{align}
+	\myvec{-1 \hspace{0.25cm} 1\\-5 \hspace{0.1cm} -5}
+\end{align}
+
+is 2. We will use row reduction method to solve the problem.
+
+\begin{align}
+	R_2 \rightarrow R_2-5R_1 \Rightarrow \myvec{-1 \hspace{0.35cm} 1\\ 0 \hspace{0.1cm} -10}
+\end{align}
+
+The matrix is reduced to row echelon form and the number of non zero rows is 2. Hence, the rank of the matrix is 2, and the three points form a triangle.
+
+$\brak{\vec{A}-\vec{B}}^{\top} \brak{\vec{A}-\vec{C}} = 0 \Rightarrow$ angle between $\vec{A}-\vec{B}$ and $\vec{B}-\vec{C}$ is 90 degrees.
 
 Hence, $\triangle ABC$ is a right angled triangle with right angle at vertex $A \myvec{4,4}$.
 

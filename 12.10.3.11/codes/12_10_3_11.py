@@ -21,9 +21,9 @@ v = np.linalg.norm(b)*a+np.linalg.norm(a)*b
 #vector u = |a|b-|b|a
 u = np.linalg.norm(a)*b-np.linalg.norm(b)*a
 
-phi = (np.arccos((np.dot(v.T,u))/(np.linalg.norm(v)*np.linalg.norm(u)))*180)/np.pi
+inner_product = v.T @ u
 
-print('angle between vectors v and u is: ',phi)
+print('The inner product between the two vectors v and u is: ',inner_product)
 print('hence the two vectors are perpendicular')
 
 #plotting the vectors
@@ -32,20 +32,15 @@ y_intercept = np.array([0,0])
 dir_u = u/u[0]
 dir_v = v/v[0]
 
-print(dir_u)
-print(dir_v)
-
 line_u = line_dir_pt(dir_u,y_intercept,-3,3)
 line_v = line_dir_pt(dir_v,y_intercept,-3,3)
 
-print('line_u ',line_u)
-print('line_v ',line_v)
 plt.plot(line_u[0,:],line_u[1,:])
 plt.plot(line_v[0,:],line_v[1,:])
 
 plt.xlim([-8,8])
 plt.ylim([-8,8])
 
-plt.savefig("./fig/line_plot.jpg")
+plt.savefig("/home/nithish/Documents/EE5610_Pattern_Recognition_Machine_Learning/12.10.3.11/figs/line_plot.jpg")
 
 plt.show()

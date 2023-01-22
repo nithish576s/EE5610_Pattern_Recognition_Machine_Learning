@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.5)  21 JAN 2023 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.5)  21 JAN 2023 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1612,21 +1612,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./11_10_2_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `11_10_2_2.out' has not changed.
 (rerunfilecheck)             Checksum: 8922EF2B786BB7133D2DA50274B670D7;48.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 293.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
  ) 
 Here is how much of TeX's memory you used:
- 39747 strings out of 481239
- 900853 string characters out of 5920378
- 1300703 words of memory out of 5000000
+ 39752 strings out of 481239
+ 900889 string characters out of 5920378
+ 1298703 words of memory out of 5000000
  54200 multiletter control sequences out of 15000+600000
- 593114 words of font info for 148 fonts, out of 8000000 for 9000
+ 595814 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,14n,91p,482b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1637,10 +1637,10 @@ onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on 11_10_2_2.pdf (1 page, 48047 bytes).
+Output written on 11_10_2_2.pdf (1 page, 44851 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
