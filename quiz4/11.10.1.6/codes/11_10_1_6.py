@@ -21,7 +21,7 @@ mat = np.array([AB,AC])
 
 
 #finding the angle of A of the triangle ABC
-phi = np.arccos((np.dot(AB.T,AC))/(np.linalg.norm(AB)*np.linalg.norm(AC)))
+phi = np.arccos((AB.T @ AC)/(np.linalg.norm(AB)*np.linalg.norm(AC)))
 print('angle A of triangle ABC is: ',(phi*180)/np.pi,'degrees')
 print('Hence the triangle ABC is a right angled triangle')
 #plotting the triangle
@@ -35,9 +35,9 @@ plt.scatter(A[0],A[1])
 plt.scatter(B[0],B[1])
 plt.scatter(C[0],C[1])
 
-plt.annotate('A',(A[0],A[1]))
-plt.annotate('B',(B[0],B[1]))
-plt.annotate('C',(C[0],C[1]))
+plt.annotate('A(4,4)',(A[0],A[1]))
+plt.annotate('B(3,5)',(B[0],B[1]))
+plt.annotate('C(-1,-1)',(C[0],C[1]))
 
 
 plt.plot(pnts_AB[0,:],pnts_AB[1,:])
@@ -50,6 +50,6 @@ plt.ylim([-2,6])
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 
-plt.savefig("triangle_plot.jpg")
+plt.savefig("/home/nithish/Documents/EE5610_Pattern_Recognition_Machine_Learning/quiz4/11.10.1.6/figs/triangle_plot.jpg")
 
 plt.show()

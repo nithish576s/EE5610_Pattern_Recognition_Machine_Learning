@@ -35,6 +35,6 @@ plt.legend(['line with slope sqrt(3)','y-axis'])
 plt.xlim(-3,3)
 plt.ylim(-5,5)
 
-plt.savefig('./fig/line_plot.jpg')
+plt.savefig('/home/nithish/Documents/EE5610_Pattern_Recognition_Machine_Learning/quiz4/11.10.1.7/figs/line_plot.jpg')
 
 plt.show()

@@ -38,6 +38,6 @@ plt.scatter(y_0[0],y_0[1])
 plt.annotate('X0(-4,3)',(x0[0],x0[1]))
 plt.annotate('Y-intercept(0,5)',(y_0[0],y_0[1]))
 
-plt.savefig("./fig/line_plot.jpg")
+plt.savefig("/home/nithish/Documents/EE5610_Pattern_Recognition_Machine_Learning/quiz4/11.10.2.2/figs/line_plot.jpg")
 
 plt.show()

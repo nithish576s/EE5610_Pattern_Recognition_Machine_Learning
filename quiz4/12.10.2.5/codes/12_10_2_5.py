@@ -33,6 +33,6 @@ plt.scatter(F[0],F[1])
 plt.annotate('I(2,1)',(I[0],I[1]))
 plt.annotate('F(-5,7)',(F[0],F[1]))
 
-plt.savefig("./fig/line_plot.jpg")
+plt.savefig("/home/nithish/Documents/EE5610_Pattern_Recognition_Machine_Learning/quiz4/12.10.2.5/figs/line_plot.jpg")
 
 plt.show()
