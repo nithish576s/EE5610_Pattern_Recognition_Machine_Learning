@@ -49,7 +49,8 @@ plt.ylim([-2,6])
 
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
-
+plt.axis('equal')
+plt.grid(visible='True',axis='both')
 plt.savefig("/home/nithish/Documents/EE5610_Pattern_Recognition_Machine_Learning/quiz4/11.10.1.6/figs/triangle_plot.jpg")
 
 plt.show()
