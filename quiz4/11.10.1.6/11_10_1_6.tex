@@ -211,17 +211,17 @@ This document contains the solution of the question from NCERT 11th standard cha
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width = \columnwidth]{"./figs/triangle_plot.jpg"}
+	\includegraphics[width = \columnwidth]{figs/triangle_plot.jpg}
 	\caption{Triangle ABC}
 	\label{fig:1}
 \end{figure}
 
-We need to show that points (4,4), (3,5) and (-1,-1) are vertices of a right triangle.
+	We need to show that points $\myvec{4 \\ 4}$, $\myvec{3 \\ 5}$ and $\myvec{-1 \\ -1}$ are vertices of a right triangle.
 
 Let,
 
 \begin{align}
-	\vec{A} = \myvec{4 \\ 4}, \vec{B} = \myvec{3 \\ 5}, \text{and } \vec{C} = \myvec{-1 \\ -1}
+	\vec{A} = \myvec{4 \\ 4}, \vec{B} = \myvec{3 \\ 5}, \vec{C} = \myvec{-1 \\ -1}
 \end{align}
 
 To check whether the points A, B, C form a triangle we find the rank of the matrix $\myvec{\vec{A} & \vec{B} & \vec{C}}$
@@ -237,14 +237,15 @@ The rank of the matrix is 2 and the points are in 2-Dimensional space. So the po
 \begin{align}
 	\vec{B}-\vec{A} &= \myvec{3 \\ 5}-\myvec{4 \\ 4} = \myvec{-1 \\ 1}\\
 	\vec{C}-\vec{A} &= \myvec{-1 \\ -1}-\myvec{4 \\ 4}=\myvec{-5 \\ -5}\\
-	\brak{\vec{B}-\vec{A}}^{\top} \brak{\vec{A}-\vec{C}} &= \myvec{-1 & 1}\myvec{-5 \\ -5}=5-5=0
-\end{align} 
+	\brak{\vec{B}-\vec{A}}^{\top} \brak{\vec{A}-\vec{C}} &= \myvec{-1 & 1}\myvec{-5 \\ -5}=5-5=0\\
+	\brak{\vec{A}-\vec{B}}^{\top}\brak{\vec{A}-\vec{C}}&=0  
+\end{align}
 
-		$\brak{\vec{A}-\vec{B}}^{\top}\brak{\vec{A}-\vec{C}}=0 \Rightarrow $ angle between $\vec{A}-\vec{B}$ and $\vec{B}-\vec{C}$ is 90 degrees.
+Hence, the angle between $\vec{A}-\vec{B}$ and $\vec{B}-\vec{C}$ is 90 degrees.
 
 		Hence, $\triangle ABC$ is a right triangle with right angle at vertex 
 		\begin{align}
-			\vec{A} =\myvec{4,4}
+			\vec{A} =\myvec{4 \\ 4}
 		\end{align}
 \end{enumerate}
 
