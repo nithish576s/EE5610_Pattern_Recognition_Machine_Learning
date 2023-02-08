@@ -212,20 +212,26 @@ Equation of line 2 is,
 	\myvec{\sec \brak{\theta} & \cosec \brak{\theta}}\vec{x} = k
 \end{align}
 
+Length of perpendicular from origin to line 1,
+
 \begin{align}
 	p &= \frac{\abs{\myvec{\cos \brak{\theta} & \sin \brak{\theta}}\myvec{0 \\ 0}-k\cos \brak{2\theta}}}{\norm{\myvec{\cos \brak{\theta} \\ \sin \brak{\theta}}}}\\
-	p &= \abs{k \cos \brak{2\theta}}\\
+	p &= \abs{k \cos \brak{2\theta}} \implies p^2 = k^2 \cos^2 \brak{2\theta}
+\end{align}
+
+Length of perpendicular from origin to line 2,
+
+\begin{align}
 	q &= \frac{\abs{\myvec{\sec \brak{\theta} & \cosec \brak{\theta}}\myvec{0 \\ 0}-k}}{\norm{\myvec{\sec \brak{\theta} \\ \cosec \brak{\theta}}}}\\
 	q &= \frac{\abs{k}}{\sqrt{\sec ^{2} \brak{\theta} + \cosec ^{2} \brak{\theta}}}\\
-	p^2 &= k^2 \cos^2 \brak{2\theta}\\
-	q^2 &= \frac{k^2}{\sec^2 \brak{\theta}+\cosec^2 \brak{\theta}}
+	\implies q^2 &= \frac{k^2}{\sec^2 \brak{\theta}+\cosec^2 \brak{\theta}}
 \end{align}
 
 \begin{align}
 	q^2 &= \frac{k^2 \sin^2 \brak{\theta} \cos^2 \brak{\theta}}{\sin^2 \brak{\theta} + \cos^2 \brak{\theta}}\\
 	4q^2 &= k^2 \brak{4\sin^2 \brak{\theta} \cos^2 \brak{\theta}}\\
 	4q^2 &= k^2\sin^2 \brak{2\theta}\\
-	p^2 + 4q^2 &= k^2\sin^2 \brak{2\theta}+k^2\cos^2 \brak{2\theta}\\
+	\implies p^2 + 4q^2 &= k^2\sin^2 \brak{2\theta}+k^2\cos^2 \brak{2\theta}\\
 	p^2 + 4q^2 &= k^2
 \end{align}
 

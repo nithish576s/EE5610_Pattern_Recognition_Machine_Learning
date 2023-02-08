@@ -40,6 +40,6 @@ plt.ylim([-3,3])
 plt.axis('equal')
 plt.legend(['line 1','line 2','equidistant line'])
 plt.grid(visible='True',axis='both')
-plt.savefig("/home/nithish/Documents/EE5610_Pattern_Recognition_Machine_Learning/quiz6/12.10.3.14/figs/vector_plot.jpg")
+plt.savefig("/home/nithish/Documents/EE5610_Pattern_Recognition_Machine_Learning/quiz7/11.10.4.21/figs/line_plot.jpg")
 plt.show()
 

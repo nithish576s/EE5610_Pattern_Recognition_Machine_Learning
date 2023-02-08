@@ -206,37 +206,17 @@ The direction vector of the given line is,
 	\vec{m} = \myvec{-18\\12\\-4}
 \end{align}
 
-The direction vector of X, Y and Z axes are,
+The unit vector along the direction vector is,
 
 \begin{align}
-	\vec{e_1} = \myvec{1\\0\\0},\vec{e_2} = \myvec{0\\1\\0}, \vec{e_3} = \myvec{0\\0\\1}
-\end{align}
-respectively.
-
-Let $\alpha$, $\beta$, $\gamma$ be the angles made by the line with the X, Y and Z axes.
-
-The direction cosines are,
-
-\begin{align}
-	\cos \alpha &= \frac{\vec{m}^{\top}\vec{e_1}}{\norm{\vec{m}}\norm{\vec{e_1}}}\\
-		    &= \frac{\myvec{-18 & 12 & -4}\myvec{1\\0\\0}}{\sqrt{\brak{-18}^2+\brak{12}^2+\brak{-4}^2}}\\
-		    &= \frac{-18}{\sqrt{484}}\\
-		    &= \frac{-9}{11}
+	\vec{n} &= \frac{\vec{m}}{\norm{m}}\\
+	\vec{n}	= &\frac{1}{\sqrt{\brak{-18}^2+\brak{12}^2+\brak{-4}^2}}\myvec{-18\\12\\-4}\\	
+	\vec{n}	&= \frac{1}{\sqrt{484}}\myvec{-18\\12\\-4}\\
+	\vec{n}	&= \frac{1}{22}\myvec{-18\\12\\-4}\\
+	\vec{n}	&= \myvec{\frac{-9}{11}\\\frac{6}{11}\\\frac{-2}{11}}\\
 \end{align}
 
-\begin{align}
-	 \cos \beta &= \frac{\vec{m}^{\top}\vec{e_2}}{\norm{\vec{m}}\norm{\vec{e_2}}}\\
-		    &= \frac{\myvec{-18 & 12 & -4}\myvec{0\\1\\0}}{\sqrt{\brak{-18}^2+\brak{12}^2+\brak{-4}^2}}\\
-		    &= \frac{12}{\sqrt{484}}\\
-		    &= \frac{6}{11}	
-\end{align}
-
-\begin{align}
-	\cos \gamma &= \frac{\vec{m}^{\top}\vec{e_3}}{\norm{\vec{m}}\norm{\vec{e_3}}}\\
-		    &= \frac{\myvec{-18 & 12 & -4}\myvec{0\\0\\1}}{\sqrt{\brak{-18}^2+\brak{12}^2+\brak{-4}^2}}\\
-		    &= \frac{-4}{\sqrt{484}}\\
-		    &= \frac{-2}{11}
-\end{align}
+The elements in the vector $\vec{n}$ are the direction cosines of the line.
 
 Hence the direction cosines of the line are,
 
