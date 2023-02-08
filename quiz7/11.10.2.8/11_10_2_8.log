@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.5)  8 FEB 2023 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.5)  8 FEB 2023 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1573,7 +1573,7 @@ LaTeX Info: Redefining \nameref on input line 87.
 \c@lemma=\count378
 \c@example=\count379
 \c@rem=\count380
-<figs/line_plot.jpg, id=31, 462.528pt x 346.896pt>
+<figs/line_plot.jpg, id=35, 462.528pt x 346.896pt>
 File: figs/line_plot.jpg Graphic file (type jpg)
 <use figs/line_plot.jpg>
 Package pdftex.def Info: figs/line_plot.jpg  used on input line 205.
@@ -1611,31 +1611,21 @@ File: utxsyc.fd 2000/12/15 v3.1
 
 
  <./figs/line_plot.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
  (./11_10_2_8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
-
-
-Package rerunfilecheck Warning: File `11_10_2_8.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `11_10_2_8.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  8922EF2B786BB7133D2DA50274B670D7;48.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package rerunfilecheck Info: File `11_10_2_8.out' has not changed.
+(rerunfilecheck)             Checksum: 8922EF2B786BB7133D2DA50274B670D7;48.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 39764 strings out of 481239
- 901124 string characters out of 5920378
- 1297684 words of memory out of 5000000
- 54209 multiletter control sequences out of 15000+600000
- 594464 words of font info for 150 fonts, out of 8000000 for 9000
+ 39771 strings out of 481239
+ 901192 string characters out of 5920378
+ 1298746 words of memory out of 5000000
+ 54211 multiletter control sequences out of 15000+600000
+ 595814 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,91p,482b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1646,10 +1636,10 @@ onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on 11_10_2_8.pdf (1 page, 91690 bytes).
+Output written on 11_10_2_8.pdf (1 page, 97365 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

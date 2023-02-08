@@ -208,16 +208,17 @@ This document contains the solution of the question from NCERT 11th standard cha
 \end{figure}
 
 
-The normal vector to the given line is,
+The normal vector to the given lines are,
 
 \begin{align}
-	\vec{n} = \myvec{\cos \brak{30} \\ \sin \brak{30}} = \myvec{\frac{\sqrt{3}}{2} \\ \frac{1}{2}}
+	\vec{n_1} = \myvec{\cos \brak{30} \\ \sin \brak{30}} = \myvec{\frac{\sqrt{3}}{2} \\ \frac{1}{2}}\\
+	\vec{n_2} = \myvec{\cos \brak{-30} \\ \sin \brak{-30}} = \myvec{\frac{\sqrt{3}}{2} \\ \frac{-1}{2}}\\
 \end{align}
 
 The perpendicular distance to the line is,
 
 \begin{align}
-	d = 5	
+	d = 5
 \end{align}
 
 Let the equation of the line be,
@@ -229,17 +230,22 @@ Let the equation of the line be,
 Then, the perpendicular distance to the line from any point x is,
 
 \begin{align}
-	d &= \frac{\abs{\vec{n}^{\top} \vec{x}-c}}{\norm{\vec{n}}}\\
+	d &= \frac{\abs{\vec{n_1}^{\top} \vec{x}-c}}{\norm{\vec{n1}}}\\
 	5 &= \frac{\abs{\myvec{\frac{\sqrt{3}}{2} & \frac{1}{2}}\myvec{0 \\ 0}-c}}{\norm{\myvec{\frac{\sqrt{3}}{2} \\ \frac{1}{2}}}}\\
 	5 &= \frac{c}{1}\\
 	c &=5
 \end{align}
 
+Similarly we can show that $c=5$ for $\vec{n_2}$.
+
 Hence, the equation of the line is,
 
 \begin{align}
-	\myvec{\frac{\sqrt{3}}{2} & \frac{1}{2}}\vec{x}-5 = 0
+	\myvec{\frac{\sqrt{3}}{2} & \frac{1}{2}}\vec{x}-5 = 0\\
+	\myvec{\frac{\sqrt{3}}{2} & \frac{-1}{2}}\vec{x}-5 = 0
 \end{align}
+
+
 
 \end{enumerate}
 
