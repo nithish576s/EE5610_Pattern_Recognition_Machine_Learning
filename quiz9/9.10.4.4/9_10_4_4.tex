@@ -217,47 +217,84 @@ Let the inner circle be of radius 3 and the outer circle be of radius 5. Then th
 Let the equation of the line be,
 
 		\begin{align}
+			\vec{x} = \vec{h} +\mu \vec{m}\\
+		\end{align}
+
+The equation of the conic section is,
+
+		\begin{align}
+			g(\vec{x}) = \vec{x}^{\top}\vec{V}\vec{x} +2\vec{u}^{\top}\vec{x} + f=0
+		\end{align}
+Then the parameter $\mu$ for the points of intersection of the line with the conic is given by,
+		\begin{align}
+			\mu^2\vec{m}^{\top}\vec{V}\vec{m}+2\mu\vec{m}^{\top}\brak{\vec{V}\vec{h}+\vec{u}} +g(\vec{h}) = 0
+		\end{align}
+
+Two have 2 points of intersection the above quadratic equation must have positive discriminant.
+
+		\begin{align}
+			4\brak{\vec{m}^{\top}\brak{\vec{V}\vec{h}+\vec{u}}}^2-4\brak{\vec{m}^{\top}\vec{V}\vec{m}}\brak{g(h)}>0
+		\end{align}
+
+As the circles are concentric we can say that if the line intersects the inner circle at two points it will intersect the outter circle at two points.
+
+		\begin{align}
+			\vec{V} = \vec{I}, \text{ } \vec{u} = \vec{O}, \text{ } f = -9 
+		\end{align}
+The line we have considered is,
+
+		\begin{align}
+			\vec{x} &= \myvec{0\\-2}+\mu\myvec{1\\1}\\
+			\vec{m} &= \myvec{1\\1}\\
+			\vec{h} &= \myvec{0\\-2}\\
+			\vec{m}^{\top}\vec{V}\vec{m} &= 2\\
+			\vec{m}^{\top}\brak{\vec{V}\vec{h}+\vec{u}}&=-2\\
+			g(\vec{h}) &= -5\\
+			\implies 4\brak{\vec{m}^{\top}\brak{\vec{V}\vec{h}+\vec{u}}}^2&-4\brak{\vec{m}^{\top}\vec{V}\vec{m}}\brak{g(h)}\\
+			&=4\brak{-2}^2-4\brak{2}\brak{-5}\\
+			&=56>0
+		\end{align}
+
+
+The point of intersection of the line and the inner circle is,
+
+		\begin{align}
+			2\mu^2-4\mu-5=0\\
+			\mu_b = \frac{4-\sqrt{56}}{4} = 1-\sqrt{\frac{7}{2}}\\
+			\mu_c = \frac{4+\sqrt{56}}{4} = 1+\sqrt{\frac{7}{2}}
+		\end{align}
+
+		\begin{align}
 			\vec{x} &= \myvec{0\\-2}+\lambda \myvec{1\\1}\\
 			\vec{x} &= \myvec{\lambda \\ \lambda - 2}
 		\end{align}
 
-The points of intersection of the line and the inner circle are,
+The point of intersection of the line and the outter circle is,
 
 		\begin{align}
-			\norm{\vec{x}}^{2} &= \lambda ^{2} + \brak{\lambda -2}^{2}\\
-			\norm{\vec{x}}^{2} &= 9\\ 
-			\lambda ^{2} + \brak{\lambda - 2}^{2} &= 9\\
-			2 \lambda ^2 -4\lambda+4&=9\\
-			\lambda ^2 -2\lambda-\frac{5}{2}&=0\\
-			\implies \lambda_c = 1+\sqrt{\frac{7}{2}} \text{, } &\lambda_b = 1-\sqrt{\frac{7}{2}}
-		\end{align}
-
-The points of intersection of the line and the outter circle are,
+			\vec{V} = \vec{I}, \vec{u}=\vec{O},f=-25\\
+			g(\vec{h}) = 4-25=-21\\
+		\end{align}	
+The remaining terms remains same as in the previous case.
 
 		\begin{align}
-			\norm{\vec{x}}^{2} &= \lambda ^{2} + \brak{\lambda -2}^{2}\\
-			\norm{\vec{x}}^{2} &= 25\\
-			\lambda ^{2} + \brak{\lambda - 2}^{2} &= 25\\
-			2 \lambda ^2 -4\lambda+4&=25\\
-			\lambda ^2 -2\lambda-\frac{21}{2}&=0\\
-			\implies \lambda_d = 1+\sqrt{\frac{23}{2}} \text{, } &\lambda_a = 1-\sqrt{\frac{23}{2}}
+			2\mu^2-4\mu-21=0\\
+			\mu_a = \frac{4-\sqrt{184}}{4} = 1-\sqrt{\frac{23}{2}}\\
+			\mu_d = \frac{4+\sqrt{184}}{4} = 1+\sqrt{\frac{23}{2}}\\
 		\end{align}
 
-		\begin{align}
-			\lambda_a = 1-\sqrt{\frac{23}{2}} \implies \vec{x_a} = \myvec{1-\sqrt{\frac{23}{2}}\\ -1-\sqrt{\frac{23}{2}}}\\
-			\lambda_b = 1-\sqrt{\frac{7}{2}} \implies \vec{x_b} = \myvec{1-\sqrt{\frac{7}{2}}\\ -1-\sqrt{\frac{7}{2}}}
-		\end{align}
-
-		\begin{align}
-			\lambda_c = 1+\sqrt{\frac{7}{2}} \implies \vec{x_c} = \myvec{1+\sqrt{\frac{7}{2}}\\ -1+\sqrt{\frac{7}{2}}}\\
-			\lambda_d = 1+\sqrt{\frac{23}{2}} \implies \vec{x_d} = \myvec{1+\sqrt{\frac{23}{2}}\\ -1+\sqrt{\frac{23}{2}}}
-		\end{align}
-
+Hence the points A,B,C and D are,
+\begin{align}
+	\vec{x_a} = \myvec{1-\sqrt{\frac{23}{2}}\\-1-\sqrt{\frac{23}{2}}}\\
+	\vec{x_b} = \myvec{1-\sqrt{\frac{7}{2}}\\-1-\sqrt{\frac{7}{2}}}\\
+	\vec{x_c} = \myvec{1+\sqrt{\frac{7}{2}}\\-1+\sqrt{\frac{7}{2}}}\\
+	\vec{x_a} = \myvec{1+\sqrt{\frac{23}{2}}\\-1+\sqrt{\frac{23}{2}}}\\
+\end{align}
 The distance between points A and B is,
 
 		\begin{align}
-			AB = \norm{\vec{x_a}-\vec{x_b}} &= \norm{\myvec{\frac{\sqrt{7}-\sqrt{23}}{\sqrt{2}}\frac{\sqrt{7}-\sqrt{23}}{\sqrt{2}}}} = \sqrt{23}-\sqrt{7}\\
-			CD = \norm{\vec{x_c}-\vec{x_d}} &= \norm{\myvec{\frac{\sqrt{7}-\sqrt{23}}{\sqrt{2}}\frac{\sqrt{7}-\sqrt{23}}{\sqrt{2}}}} = \sqrt{23}-\sqrt{7}\\
+			AB = \norm{\vec{x_a}-\vec{x_b}} &= \norm{\myvec{\frac{\sqrt{7}-\sqrt{23}}{\sqrt{2}}\\\frac{\sqrt{7}-\sqrt{23}}{\sqrt{2}}}} = \sqrt{23}-\sqrt{7}\\
+			CD = \norm{\vec{x_c}-\vec{x_d}} &= \norm{\myvec{\frac{\sqrt{7}-\sqrt{23}}{\sqrt{2}}\\\frac{\sqrt{7}-\sqrt{23}}{\sqrt{2}}}} = \sqrt{23}-\sqrt{7}\\
 			\implies AB=CD
 		\end{align}
 
