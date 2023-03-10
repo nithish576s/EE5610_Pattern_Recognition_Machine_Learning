@@ -232,25 +232,23 @@ The angle subtended by chord DE is,
 The direction vector of the line passing through the points A and D is,
 
 		\begin{align}
-			\vec{m_1}&=\myvec{1 \\ \frac{\sin \theta_3-\sin \theta_1}{\cos \theta_3-\cos \theta_1}}\\
-			       &=\myvec{1 \\ \frac{2\cos \brak{\frac{\theta_3+\theta_1}{2}} \sin \brak{\frac{\theta_3-\theta_1}{2}}}{-2\sin \brak{\frac{\theta_1+\theta_3}{2}}\sin \brak{\frac{\theta_3-\theta_1}{2}}}}\\
-			\vec{m_1} &= \myvec{1\\-\cot \brak{\frac{\theta_1+\theta_3}{2}}}\\ 
-			\norm{\vec{m_1}} &= \sqrt{1+\cot^2 \brak{\frac{\theta_1+\theta_3}{2}}}\\
-					 &= \cosec \brak{\frac{\theta_1+\theta_3}{2}}
+			\vec{m_1}&=\myvec{\cos \theta_3-\cos \theta_1 \\ \sin \theta_3-\sin \theta_1}\\
+			       &=\myvec{-2\sin \brak{\frac{\theta_1+\theta_3}{2}}\sin \brak{\frac{\theta_3-\theta_1}{2}} \\ 2\cos \brak{\frac{\theta_3+\theta_1}{2}} \sin \brak{\frac{\theta_3-\theta_1}{2}}}\\
+			\vec{m_1} &= -2\sin \brak{\frac{\theta_3-\theta_1}{2}}\myvec{\sin \brak{\frac{\theta_1+\theta_3}{2}}\\-\cos \brak{\frac{\theta_1+\theta_3}{2}}}\\ 
+		\norm{\vec{m_1}} &= 2\sin \brak{\frac{\theta_3-\theta_1}{2}}
 		\end{align}
 The direction vector of the line passing through the points C and E is,
 		\begin{align}
-			\vec{m_2}&=\myvec{1 \\ \frac{\sin \theta_4-\sin \theta_2}{\cos \theta_4-\cos \theta_2}}\\
-			       &=\myvec{1 \\ \frac{2\cos \brak{\frac{\theta_4+\theta_2}{2}} \sin \brak{\frac{\theta_4-\theta_2}{2}}}{-2\sin \brak{\frac{\theta_2+\theta_4}{2}}\sin \brak{\frac{\theta_4-\theta_2}{2}}}}\\
-			       &=\myvec{1 \\ -\cot \brak{\frac{\theta_2+\theta_4}{2}}}\\ 
-		       \norm{\vec{m_2}} &= \sqrt{1+\cot^2 \brak{\frac{\theta_2+\theta_4}{2}}}\\
-					&= \cosec \brak{\frac{\theta_2+\theta_4}{2}}
+			\vec{m_2}&=\myvec{\cos \theta_4-\cos \theta_2 \\ \sin \theta_4-\sin \theta_2}\\
+			       &=\myvec{-2\sin \brak{\frac{\theta_2+\theta_4}{2}}\sin \brak{\frac{\theta_4-\theta_2}{2}} \\ 2\cos \brak{\frac{\theta_4+\theta_2}{2}} \sin \brak{\frac{\theta_4-\theta_2}{2}}}\\
+			\vec{m_1} &= -2\sin \brak{\frac{\theta_4-\theta_2}{2}}\myvec{\sin \brak{\frac{\theta_2+\theta_4}{2}}\\-\cos \brak{\frac{\theta_2+\theta_4}{2}}}\\ 
+			\norm{\vec{m_2}}&= 2\sin \brak{\frac{\theta_4-\theta_2}{2}}
 		\end{align}
 
 Then,
 		\begin{align}
 			\cos \angle ABC &= \frac{\vec{m_1}^{\top}\vec{m_2}}{\norm{\vec{m_1}\norm{\vec{m_2}}}}\\
-					&= \frac{1+\cot \brak{\frac{\theta_1+\theta_3}{2}} \cot \brak{\frac{\theta_2+\theta_4}{2}}}{\cosec \brak{\frac{\theta_1+\theta_3}{2}} \cosec \brak{\frac{\theta_2+\theta_4}{2}}}\\
+					&= \myvec{\sin \brak{\frac{\theta_1+\theta_3}{2}} & -\cos \brak{\frac{\theta_1+\theta_3}{2}} } \myvec{\sin \brak{\frac{\theta_2+\theta_4}{2}} \\ -\cos \brak{\frac{\theta_2+\theta_4}{2}} }\\								
 					&= \cos \brak{\frac{\theta_1+\theta_3-\theta_2-\theta_4}{2}}\\
 					&= \cos \brak{\frac{\phi_1-\phi_2}{2}}\\
 			     \angle ABC &= \frac{\phi_1-\phi_2}{2}
