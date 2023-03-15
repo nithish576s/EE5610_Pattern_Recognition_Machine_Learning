@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.5)  15 MAR 2023 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.5)  15 MAR 2023 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1603,7 +1603,7 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-<figs/plot.jpg, id=31, 462.528pt x 346.896pt>
+<figs/plot.jpg, id=35, 462.528pt x 346.896pt>
 File: figs/plot.jpg Graphic file (type jpg)
 <use figs/plot.jpg>
 Package pdftex.def Info: figs/plot.jpg  used on input line 205.
@@ -1623,36 +1623,21 @@ Overfull \hbox (7.79655pt too wide) detected at line 294
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./table/9_10_6_4_table.tex
-Overfull \hbox (28.86447pt too wide) in paragraph at lines 8--16
- [] 
- []
-
-) [2]
+(./table/9_10_6_4_table.tex) [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
  (./9_10_6_4.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
-
-
-Package rerunfilecheck Warning: File `9_10_6_4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `9_10_6_4.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  1E5E8CE121A3CA81DBA4825C9A8C7C37;48.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `9_10_6_4.out' has not changed.
+(rerunfilecheck)             Checksum: 1E5E8CE121A3CA81DBA4825C9A8C7C37;48.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
  ) 
 Here is how much of TeX's memory you used:
- 39809 strings out of 481239
- 901702 string characters out of 5920378
- 1312679 words of memory out of 5000000
- 54212 multiletter control sequences out of 15000+600000
+ 39811 strings out of 481239
+ 901715 string characters out of 5920378
+ 1312765 words of memory out of 5000000
+ 54214 multiletter control sequences out of 15000+600000
  598506 words of font info for 156 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,18n,91p,481b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1666,10 +1651,10 @@ are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on 9_10_6_4.pdf (2 pages, 116699 bytes).
+Output written on 9_10_6_4.pdf (2 pages, 116387 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 143 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
  45 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
