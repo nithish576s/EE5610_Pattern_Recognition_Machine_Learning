@@ -234,20 +234,20 @@ The direction vector of the line passing through the points A and D is,
 		\begin{align}
 			\vec{m_1}&=\myvec{\cos \theta_3-\cos \theta_1 \\ \sin \theta_3-\sin \theta_1}\\
 			       &=\myvec{-2\sin \brak{\frac{\theta_1+\theta_3}{2}}\sin \brak{\frac{\theta_3-\theta_1}{2}} \\ 2\cos \brak{\frac{\theta_3+\theta_1}{2}} \sin \brak{\frac{\theta_3-\theta_1}{2}}}\\
-			\vec{m_1} &= -2\sin \brak{\frac{\theta_3-\theta_1}{2}}\myvec{\sin \brak{\frac{\theta_1+\theta_3}{2}}\\-\cos \brak{\frac{\theta_1+\theta_3}{2}}}\\ 
+			\vec{m_1} = -2&\sin \brak{\frac{\theta_3-\theta_1}{2}}\myvec{\sin \brak{\frac{\theta_1+\theta_3}{2}}\\-\cos \brak{\frac{\theta_1+\theta_3}{2}}}\\ 
 		\norm{\vec{m_1}} &= 2\sin \brak{\frac{\theta_3-\theta_1}{2}}
 		\end{align}
 The direction vector of the line passing through the points C and E is,
 		\begin{align}
 			\vec{m_2}&=\myvec{\cos \theta_4-\cos \theta_2 \\ \sin \theta_4-\sin \theta_2}\\
 			       &=\myvec{-2\sin \brak{\frac{\theta_2+\theta_4}{2}}\sin \brak{\frac{\theta_4-\theta_2}{2}} \\ 2\cos \brak{\frac{\theta_4+\theta_2}{2}} \sin \brak{\frac{\theta_4-\theta_2}{2}}}\\
-			\vec{m_1} &= -2\sin \brak{\frac{\theta_4-\theta_2}{2}}\myvec{\sin \brak{\frac{\theta_2+\theta_4}{2}}\\-\cos \brak{\frac{\theta_2+\theta_4}{2}}}\\ 
+			\vec{m_1} = -2&\sin \brak{\frac{\theta_4-\theta_2}{2}}\myvec{\sin \brak{\frac{\theta_2+\theta_4}{2}}\\-\cos \brak{\frac{\theta_2+\theta_4}{2}}}\\ 
 			\norm{\vec{m_2}}&= 2\sin \brak{\frac{\theta_4-\theta_2}{2}}
 		\end{align}
 
 Then,
 		\begin{align}
-			\cos \angle ABC &= \frac{\vec{m_1}^{\top}\vec{m_2}}{\norm{\vec{m_1}\norm{\vec{m_2}}}}\\
+			\cos \angle &ABC = \frac{\vec{m_1}^{\top}\vec{m_2}}{\norm{\vec{m_1}\norm{\vec{m_2}}}}\\
 					= &\myvec{\sin \brak{\frac{\theta_1+\theta_3}{2}} \\ -\cos \brak{\frac{\theta_1+\theta_3}{2}}}^{\top} \myvec{\sin \brak{\frac{\theta_2+\theta_4}{2}} \\ -\cos \brak{\frac{\theta_2+\theta_4}{2}} }\\								
 					&= \cos \brak{\frac{\theta_1+\theta_3-\theta_2-\theta_4}{2}}\\
 					&= \cos \brak{\frac{\phi_1-\phi_2}{2}}\\
@@ -282,9 +282,11 @@ and the angle subtended by chord DE at the centre is,
 Then the angle ABC is,
 		\begin{align}
 			\cos \angle ABC &= \frac{\vec{BA}^{\top} \vec{BC}}{\norm{BA}\norm{BC}}\\
-				BA &= \myvec{-\frac{1}{2}\\\frac{\sqrt{3}}{2}} - \myvec{1+\sqrt{3}\\0} = \myvec{-\frac{3}{2}-\sqrt{3}\\\frac{\sqrt{3}}{2}}\\
-				BC &= \myvec{-\frac{1}{2}\\-\frac{\sqrt{3}}{2}} - \myvec{1+\sqrt{3}\\0} = \myvec{-\frac{3}{2}-\sqrt{3}\\-\frac{\sqrt{3}}{2}}\\
-	  \vec{BA}^{\top} \vec{BC} &= \myvec{-\frac{3}{2}-\sqrt{3}\\\frac{\sqrt{3}}{2}}^{\top}\myvec{-\frac{3}{2}-\sqrt{3}\\-\frac{\sqrt{3}}{2}}\\
+				\vec{BA} &= \myvec{-\frac{1}{2}\\\frac{\sqrt{3}}{2}} - \myvec{1+\sqrt{3}\\0}\\
+				    &= \myvec{-\frac{3}{2}-\sqrt{3}\\\frac{\sqrt{3}}{2}}\\
+				\vec{BC} &= \myvec{-\frac{1}{2}\\-\frac{\sqrt{3}}{2}} - \myvec{1+\sqrt{3}\\0}\\
+				    &= \myvec{-\frac{3}{2}-\sqrt{3}\\-\frac{\sqrt{3}}{2}}\\
+			\vec{BA}^{\top} \vec{BC} = &\myvec{-\frac{3}{2}-\sqrt{3}\\\frac{\sqrt{3}}{2}}^{\top}\myvec{-\frac{3}{2}-\sqrt{3}\\-\frac{\sqrt{3}}{2}}\\
 			  	   &= \frac{9}{2} + 3\sqrt{3}\\
 	\norm{\vec{BA}} = \norm{\vec{BC}} &= \sqrt{6+3\sqrt{3}}\\
 			\cos \angle ABC &= \frac{\frac{9}{2}+3\sqrt{3}}{6+3\sqrt{3}}\\
