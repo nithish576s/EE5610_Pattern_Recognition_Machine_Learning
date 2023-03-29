@@ -212,9 +212,9 @@ This document contains the solution of the question from NCERT 11th standard cha
 			\myvec{4 & 3}\vec{x} = 12
 		\end{align}
 
-		Let the required point on y axis be $(0,y)$, then the distance of this point from the given line is,   
+		Let the required point on y axis be $\myvec{0\\y}$, then the distance of this point from the given line is,   
 		\begin{align}
-			d &= \frac{\abs{0+3y-12}}{\sqrt{3^2+4^2}}\\
+			d &= \frac{\abs{\myvec{4 & 3}\myvec{0\\y}-12}}{\sqrt{3^2+4^2}}\\
 			d &= \frac{\abs{3y-12}}{5}\\
 			d &= 4 \implies \frac{\abs{3y-12}}{5} = 4\\
 			\abs{3y-12} &= 20\\
@@ -236,14 +236,14 @@ Solving the above optimization with cvxpy gives,
 
 The foot of perpendicular to the line from the point $(0,-\frac{8}{3})$ is,
 		\begin{align}
-			\vec{x}_0 = \min_{\vec{x}} \norm{\vec{x}-\myvec{0\\-\frac{8}{3}}}\\
+			\vec{x}_1 = \min_{\vec{x}} \norm{\vec{x}-\myvec{0\\-\frac{8}{3}}}\\
 			\text{s.t} \quad \myvec{4 & 3}\vec{x} = 12
 		\end{align}
 
 Solving the above optimization with cvxpy gives,
 		
 \begin{align}
-	\vec{x}_0 = \myvec{3.2\\-0.2667}
+	\vec{x}_1 = \myvec{3.2\\-0.2667}
 \end{align}
 %		\begin{table}[h]
 %			\centering
