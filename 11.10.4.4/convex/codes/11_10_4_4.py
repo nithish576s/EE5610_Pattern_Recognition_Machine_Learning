@@ -37,3 +37,4 @@ print('length of the perpendicular from (0,-8/3) to the line: ',result2)
 
 print('feet of perpendicular from (0,-8/3) to the line: ',x2.value)
 
+
