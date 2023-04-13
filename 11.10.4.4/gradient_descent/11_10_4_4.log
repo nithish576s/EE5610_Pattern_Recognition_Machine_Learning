@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.3.5)  13 APR 2023 06:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.3.5)  13 APR 2023 06:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1415,14 +1415,17 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./11_10_4_4.aux)
+) (./11_10_4_4.aux
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+)
 \openout1 = `11_10_4_4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 87.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 87.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 87.
@@ -1615,14 +1618,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./table/11_10_4_4_table2.tex) [2] (./11_10_4_4.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `11_10_4_4.out' has not changed.
 (rerunfilecheck)             Checksum: 44EA722232E4026C98B6FF9FF5DDEA03;48.
  ) 
 Here is how much of TeX's memory you used:
- 41517 strings out of 479304
- 954274 string characters out of 5869780
- 1484471 words of memory out of 5000000
- 57855 multiletter control sequences out of 15000+600000
+ 41518 strings out of 479304
+ 954281 string characters out of 5869780
+ 1484547 words of memory out of 5000000
+ 57856 multiletter control sequences out of 15000+600000
  468282 words of font info for 157 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,15n,111p,413b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1635,7 +1641,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on 11_10_4_4.pdf (2 pages, 59167 bytes).
+Output written on 11_10_4_4.pdf (2 pages, 59162 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
