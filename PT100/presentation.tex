@@ -124,9 +124,13 @@ columns=fullflexible
 \end{frame}
 \begin{frame}{Data Acquisition}
 	\begin{itemize}
-		\item From the above circuit we can see that the voltage across PT-100 sensor is given by,
+		%\item From the above circuit we can see that the voltage across PT-100 sensor is given by,
+		%\begin{align}
+		%	V_P = 3.3\brak{\frac{P}{P+50}}V
+		%\end{align}
+		\item Platinum Resistance Temperature Detectors(RTDs) follow Callendar Van Dussen equation,
 		\begin{align}
-			V_P = 3.3\brak{\frac{P}{P+50}}V
+			V(T) = V(0)\brak{1+BT+AT^2}
 		\end{align} 
 		\item As the temperature increases, resistance of the PT-100 sensor increases and hence the voltage across PT-100 sensor $V_P$ increases.
 		\item We use an arduino board to read the voltage $V_P$ and a thermomenter to measure the corresponding temperature.
@@ -164,7 +168,7 @@ Say we collect N data points $(V_{P_1},T_1),(V_{P_2},T_2),\hdots (V_{P_N},T_N)$.
 	\end{align}
 	For the above training data, the least squares estimate that we get is,
 	\begin{align}
-		\vec{n} = \myvec{2.33483\\ 2.93939\times10^{-3}\\-6.24626\time10^{-6}}
+		\vec{n} = \myvec{2.33483\\ 2.93939\times10^{-3}\\-6.24626\times 10^{-6}}
 	\end{align}
 \end{frame}
 
@@ -198,7 +202,10 @@ Say we collect N data points $(V_{P_1},T_1),(V_{P_2},T_2),\hdots (V_{P_N},T_N)$.
 
 \section{Conclusion}
 \begin{frame}{Conclusion}
-	From above plots we can see that Regression is effective in mapping the relation between the voltage across the PT-100 sensor and it's temperature.
+	\begin{itemize}
+		\item From above plots we can see that the plot of voltage vs temperature does not vary a lot from the training and validation.
+		\item Hence, Regression is effective in mapping the relation between the voltage across the PT-100 sensor and it's temperature.
+	\end{itemize}
 \end{frame}
 
 \end{document}
